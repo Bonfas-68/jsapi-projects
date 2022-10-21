@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"  />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <span>&#128514;</span>
+    <p id="joke">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi mollitia fuga adipisci illo magnam praesentium ab voluptatem ipsa placeat consequatur.
+    </p>
+    <button id="btn">Get random joke</button>
+</div>
+
+<div class="search_container">
+    
+    <audio  id="sound"></audio>
+    <div class="container">
+        <h3 class="head">Web Dictionary</h3>
+        <div class="search-box" id="search-box">
+            <input type="text" placeholder="Type text here..." id="inp-word">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result" id="result">
+            
+        </div>
+    </div>
+</div>
+
+<!-- Country search projects -->
+
+<div class="search-country--container">
+    <h3>Country Search By Name</h3>
+    <div class="search-wrapper">
+        <input type="text" id="country-inp" placeholder="Enter a country name here...">
+        <button id="btn-country">
+            Search
+        </button>
+    </div>
+    <div id="sresult"></div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
